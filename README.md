@@ -30,14 +30,14 @@ cd File-Sharing-Server
 ```
 
 ### 2️⃣ Start the Server
-Run the following command to start the TreeDrive server:
+Run the following command in terminal to start the TreeDrive server:
 ```sh
 python3 server.py
 ```
 By default, the server runs on `localhost` and a predefined port. To specify a different host and port, modify `server.py` accordingly.
 
 ### 3️⃣ Start a Client
-Run the following command to connect as a client:
+Run the following command in another terminal to connect as a client:
 ```sh
 python3 client.py <username> <server_host> <server_port>
 ```
